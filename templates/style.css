@@ -11,14 +11,10 @@ body {
     font-family: sans-serif;
 }
 
-.header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 
 .head {
-    display: felx;
+    display: flex;
     align-items: center;
     justify-items: space-between;
     height: 63px;
@@ -26,4 +22,44 @@ body {
     position: fixed;
     width: 100%;
     z-index: 100;
+}
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+.logo a {
+     text-decoration: none;
+     color: #fff;
+     text-transform: uppercase; 
+     font-size: 20px;
+}
+
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;    
+}
+
+.navbar a:hover {
+    background: #343131;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    height: 60vh !important;
+    background: url(img/trs.jpg) no-repeat center;
+    background-size: cover;
 }
